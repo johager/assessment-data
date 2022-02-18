@@ -5,7 +5,8 @@ def sales_reports(log_file):  # make the function sales_reports
     for line in log_file:  # loop over all lines in the file
         line = line.rstrip()  # remove trailing characters from the line
         day = line[0:3]  # extract the day-of-the-week (the first 3 characters of the line)
-        if day == "Tue":  # if day is 'Tue'
+        # if day == "Tue":  # if day is 'Tue'
+        if day == "Mon":  # if day is 'Mon'
             print(line)  # print the whole line of data
 
 
