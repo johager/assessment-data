@@ -46,9 +46,16 @@ create table owners_animal_ages (
     animal_age_id int not null references animal_ages(id)
 );
 
--- required data
+-- required initial data
 
-insert into ages (age) values
+insert into animal_types (type) values
+('cat'),
+('dog'),
+('rabbit'),
+('snake'),
+('turtle');
+
+insert into animal_ages (age) values
 ('young'),
 ('middle-aged'),
 ('elderly');
