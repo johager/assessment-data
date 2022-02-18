@@ -1,0 +1,1 @@
+Note that I performed the "Join" in the SQL section using an implicit join by selecting from two tables and adding the "join" ties in the where clause. According to https://stackoverflow.com/questions/44917/explicit-vs-implicit-sql-joins, the performance is the same. I prefer implicit joins because there's less typing involved.
