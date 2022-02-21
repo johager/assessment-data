@@ -1,1 +1,11 @@
-Note that I performed the "Join" in the SQL section using an implicit join by selecting from two tables and adding the "join" ties in the where clause. According to https://stackoverflow.com/questions/44917/explicit-vs-implicit-sql-joins, the performance is the same. I prefer implicit joins because there's less typing involved.
+=== Part 1: Data Manipulation with Python ===
+
+I initially skipped over the instruction to "Change the script to display sales info for Monday instead of Tuesday."
+
+=== Part 2: Data Modeling ===
+
+The "owners" table holds potential owners with their requested animal specifications. It would be a good idea to include owner contact information too, like email and phone.
+
+=== Part 3: Sequelize === 
+
+Note that I performed the "Join" using an implicit join by selecting from two tables and adding the "join" ties in the where clause. According to https://stackoverflow.com/questions/44917/explicit-vs-implicit-sql-joins, the performance of explicit and implicit joins is the same. I prefer implicit joins because there's less typing involved.
