@@ -246,7 +246,7 @@ module.exports = {
     createCity: (req, res) => {
         const {name, rating, countryId} = req.body
         sequelize.query(`insert into cities (name, rating, country_id) values
-        ('${name}', ${+rating}, ${+countryId})`)
+        ('${name}', ${rating}, ${countryId})`)
             .then(dbRes => res.status(200).send(dbRes[0]))
             .catch(err => console.log(err))
     },
